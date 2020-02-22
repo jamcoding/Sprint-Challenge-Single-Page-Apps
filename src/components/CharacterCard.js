@@ -4,9 +4,9 @@ export default function CharacterCard({ character }) {
   console.log("character", character);
   return (
     <div>
-      <p>{character.name}</p>
-      <p>{character.status}</p>
-      <p>{character.species}</p>
+      <p>Name: {character.name}</p>
+      <p>Status: {character.status}</p>
+      <p>Species: {character.species}</p>
     </div>
   );
 }

@@ -25,7 +25,7 @@ export default function CharacterList() {
     <section className="character-list">
       <div>
         {characters.map(character => {
-            return <CharacterCard data={characters} character={character} key={character.id} />
+            return <CharacterCard character={character} key={character.id} />
           })
         }
       </div>
