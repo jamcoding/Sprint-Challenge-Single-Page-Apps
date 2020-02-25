@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: With client-side routing, the data that is requested from a person when switching pages or clicking on links or buttons, is already there and will display only when we ask for it. This is great because we don’t have to ask for multiple request when we are switching from page to page within an application or web page. This allows users to navigation without the page refreshing and that applications will have a smoother appearance.
 
 ## Project Set Up
 
