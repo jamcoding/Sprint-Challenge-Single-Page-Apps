@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function SearchForm({characters}) {
     // console.log("props", character)
     const [searchTerm, setSearchTerm] = useState("");
-    const [searchResults, setSearchResults] = React.useState(characters);
+    const [searchResults, setSearchResults] = useState(characters);
 
     const handleChange = event => {
         setSearchTerm(event.target.value);

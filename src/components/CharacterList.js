@@ -5,7 +5,7 @@ import SearchForm from "./SearchForm";
 import styled from "styled-components";
 
 const Container = styled.div`
-width: 60%;
+width: 90%;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
