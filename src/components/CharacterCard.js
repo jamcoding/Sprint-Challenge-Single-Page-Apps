@@ -21,7 +21,7 @@ export default function CharacterCard({ character }) {
   // console.log("character", character);
   return (
     <Character>
-      <CharacterImage src={character.image} />
+      <CharacterImage src={character.image} alt={character.name} />
       <CharacterText>Name: {character.name}</CharacterText>
       <CharacterText>Status: {character.status}</CharacterText>
       <CharacterText>Species: {character.species}</CharacterText>
